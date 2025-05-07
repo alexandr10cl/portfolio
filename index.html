@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Alexandre Vidal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Alexandre Vidal</h1>
+        <ul>
+            <li><a href="#sobre">Início</a></li>
+            <li><a href="#projetos">Sobre</a></li>
+            <li><a href="#skills">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Titulo</h1>
+        <p>descrição</p>
+        <button class="primary-btn">Baixar currículo</button>   
+    </header>
+    <div class="about">
+        <h2>Sobre mim</h2>
+        <p>descrição</p>
+        <h2>Skills Técnicas</h2>
+        <hr>
+        <div class="skills">
+            <div class="skill-list">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-list">
+                <p>HTML & CSS</p>
+            </div>
+            <div class="skill-list">
+                <p>Python</p>
+            </div>
+            <div class="skill-list">
+                <p>Flask</p>
+            </div>
+            <div class="skill-list">
+                <p>SQL</p>
+            </div>
+        </div>
+    </div>
+    <div class="projects">
+        <h2>Projetos em Destaque</h2>
+        <hr>
+        <div class="projects-cards-container">
+            <div class="project-card">
+                <dialog id="dialog1">
+                    <div class="dialog-content">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do projeto 1.</p>
+                        <button onclick="fecharDialogo('dialog1')">Fechar</button>
+                    </div>
+                </dialog>
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+                <div class="card-technologies">
+                    <p>JavaScript</p>
+                    <p>HTML & CSS</p>
+                    <p>Python - Flask</p>
+                    <p>SQL</p>
+                </div>
+                <button onclick="abrirDialogo('dialog1')">Ver projeto➝</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-info">
+            <h2>Alexandre Vidal</h2>
+            <p>Desenvolvedor Full-Stack</p>
+            <div class="social-media">
+                <a href="http://">LinkedIn</a>
+                <a href="http://">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h2>Contato</h2>
+            <p>Email:</p>
+            <p>Telefone:</p>
+            <p>LinkedIn:</p>
+            <p>GitHub:</p>
+        </div>
+        <hr>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
